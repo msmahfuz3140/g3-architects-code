@@ -2,3 +2,75 @@
 .work-sans-font{
   font-family: "Work Sans", sans-serif;
 }
+
+/* shared style  */
+
+.btn-primary{
+    background-color: #FF900E;
+    color: rgba(255, 255, 255, 0.894);
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 20px 25px;
+    border-radius: 8px;
+    border: none;
+}
+
+/* body style  */
+
+/* head style  */
+
+.display-flex{
+    display: flex;
+}
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .brand {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #131313;
+}
+.navbar ul li{
+    list-style: none;
+    margin-right: 20px;
+}
+.navbar ul a {
+    text-decoration: none;
+    color: #424242;
+    font-weight: 500;
+}
+.container{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+.navbar, .banner{
+    width: 1400px;
+    margin: 0 auto;
+}
+/* banner style  */
+
+.banner-content{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.banner-title {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #131313;
+}
+.banner-content p{
+    color: #727272;
+    font-size: 1rem;
+    line-height: 26px;
+    margin-bottom: 32px;
+}
+.banner-image{
+    width: 100vw;
+}
+/* nav style  */
+
+/* main style  */
+
+/* footer style  */
