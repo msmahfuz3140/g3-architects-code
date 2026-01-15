@@ -113,27 +113,34 @@ main {
     line-height: 26px;
     color: #727272;
 }
+
 /* section style  */
-.facts h3{
+.facts h3 {
     font-size: 3rem;
     font-weight: bold;
     color: #131313;
+    text-align: center;
 
 }
-.facts p{
+
+.facts p {
     font-size: 1rem;
     line-height: 26px;
     color: #727272;
     max-width: 542px;
+    text-align: center;
+    margin: 0 auto;
 }
-.fatc-container{
+
+.fatc-container {
     display: flex;
     max-width: 1340px;
-   justify-content: center;
-   gap: 225px;
-   margin-top: 100px;
+    justify-content: center;
+    gap: 225px;
+    margin-top: 100px;
 }
-.fact{
+
+.fact {
     border: 1px solid #FF900E;
     padding: 20px 40px;
     height: 241px;
@@ -141,16 +148,46 @@ main {
     text-align: center;
     border-radius: 8px;
 }
-.fact h4{
+
+.fact h4 {
     font-size: 3rem;
     color: #424242;
     margin-top: 20px;
     margin-bottom: 10px;
 }
-.fact h6{
+
+.fact h6 {
     font-size: 1.25rem;
     font-weight: 600;
     color: #727272;
+}
+
+/* sponsor style  */
+.sponsor-title {
+    max-width: 542px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.sponsor-title h3 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #131313;
+}
+
+.sponsor-title p {
+    font-size: 1rem;
+    line-height: 26px;
+    color: #727272;
+}
+
+.sponsor-image {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.sponsor-image img {
+    filter: grayscale(100%);
 }
 
 /* footer style  */
@@ -185,8 +222,29 @@ main {
         grid-template-columns: repeat(1, 1fr);
     }
 
+    .fatc-container {
+        display: block;
+    }
+
+    .fatc-container .fact {
+        margin-top: 20px;
+    }
+
     .teams button {
         margin-left: 80px;
+    }
+
+    .sponsor-title h3 {
+        font-size: 2.25rem;
+    }
+
+    .sponsor-image {
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+
+    .sponsor-image img {
+       margin-bottom: 30px;
     }
 }
 
