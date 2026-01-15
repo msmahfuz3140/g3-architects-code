@@ -134,10 +134,23 @@ main {
    margin-top: 100px;
 }
 .fact{
-    border: 1px solid red;
+    border: 1px solid #FF900E;
     padding: 20px 40px;
+    height: 241px;
     width: 241px;
     text-align: center;
+    border-radius: 8px;
+}
+.fact h4{
+    font-size: 3rem;
+    color: #424242;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.fact h6{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #727272;
 }
 
 /* footer style  */
