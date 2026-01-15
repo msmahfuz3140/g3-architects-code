@@ -67,10 +67,53 @@
     margin-bottom: 32px;
 }
 .banner-image{
-    width: 100vw;
+    width: 100%;
+    padding-bottom: 20px;
 }
-/* nav style  */
 
 /* main style  */
 
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.teams{
+    align-items: center;
+    gap: 73px;
+    margin-top: 80px;
+}
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.features{
+    max-width: 530px;
+}
+.features h3{
+    font-size: 3rem;
+}
+.features p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
 /* footer style  */
+
+@media screen and (max-width: 576px){
+    .navbar, .banner{
+        width: 100%;
+        margin: 0;
+    }
+    .navbar .brand{
+        font-size: 1.25rem;
+    }
+    ul{
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    .banner-title{
+        font-size: 3rem;
+    }
+}
